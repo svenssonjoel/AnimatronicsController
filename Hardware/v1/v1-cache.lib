@@ -7,7 +7,7 @@ DEF Connector_Conn_01x02_Female J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
 F1 "Connector_Conn_01x02_Female" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -27,7 +27,7 @@ DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
 F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -50,7 +50,7 @@ DEF Connector_Conn_01x04_Female J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
 F1 "Connector_Conn_01x04_Female" 0 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -76,7 +76,7 @@ DEF Connector_Generic_Conn_01x06 J 0 40 Y N 1 F N
 F0 "J" 0 300 50 H V C CNN
 F1 "Connector_Generic_Conn_01x06" 0 -400 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Connector*:*_1x??_*
 $ENDFPLIST
@@ -103,7 +103,7 @@ DEF Connector_Screw_Terminal_01x02 J 0 40 Y N 1 F N
 F0 "J" 0 100 50 H V C CNN
 F1 "Connector_Screw_Terminal_01x02" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  TerminalBlock*:*
 $ENDFPLIST
@@ -126,7 +126,7 @@ DEF Connector_USB_A J 0 40 Y Y 1 F N
 F0 "J" -200 450 50 H V L CNN
 F1 "Connector_USB_A" -200 350 50 H V L CNN
 F2 "" 150 -50 50 H I C CNN
-F3 "" 150 -50 50 H I C CNN
+F3 " ~" 150 -50 50 H I C CNN
 $FPLIST
  USB*
 $ENDFPLIST
@@ -153,49 +153,13 @@ X Shield 5 -100 -400 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_USB_B_Mini
-#
-DEF Connector_USB_B_Mini J 0 40 Y Y 1 F N
-F0 "J" -200 450 50 H V L CNN
-F1 "Connector_USB_B_Mini" -200 350 50 H V L CNN
-F2 "" 150 -50 50 H I C CNN
-F3 "" 150 -50 50 H I C CNN
-ALIAS USB_B_Mini
-$FPLIST
- USB*
-$ENDFPLIST
-DRAW
-C -150 85 25 0 1 10 F
-C -25 135 15 0 1 10 F
-S -200 -300 200 300 0 1 10 f
-S -5 -300 5 -270 0 1 0 N
-S 10 50 -20 20 0 1 10 F
-S 200 -205 170 -195 0 1 0 N
-S 200 -105 170 -95 0 1 0 N
-S 200 -5 170 5 0 1 0 N
-S 200 195 170 205 0 1 0 N
-P 2 0 1 10 -75 85 25 85 N
-P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
-P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
-P 4 0 1 10 25 110 25 60 75 85 25 110 F
-P 5 0 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
-P 9 0 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
-X VBUS 1 300 200 100 L 50 50 1 1 w
-X D- 2 300 -100 100 L 50 50 1 1 P
-X D+ 3 300 0 100 L 50 50 1 1 P
-X ID 4 300 -200 100 L 50 50 1 1 P
-X GND 5 0 -400 100 U 50 50 1 1 w
-X Shield 6 -100 -400 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_C
 #
 DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  C_*
 $ENDFPLIST
@@ -213,7 +177,7 @@ DEF Device_CP1 C 0 10 N N 1 F N
 F0 "C" 25 100 50 H V L CNN
 F1 "Device_CP1" 25 -100 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  CP_*
 $ENDFPLIST
@@ -233,7 +197,7 @@ DEF Device_CP_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "Device_CP_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  CP_*
 $ENDFPLIST
@@ -253,7 +217,7 @@ DEF Device_C_Small C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
 F1 "Device_C_Small" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  C_*
 $ENDFPLIST
@@ -271,7 +235,7 @@ DEF Device_Crystal_GND24 Y 0 40 Y N 1 F N
 F0 "Y" 125 200 50 H V L CNN
 F1 "Device_Crystal_GND24" 125 125 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Crystal*
 $ENDFPLIST
@@ -298,7 +262,7 @@ DEF Device_L L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
 F1 "Device_L" 75 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
@@ -321,16 +285,16 @@ DEF Device_LED D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "Device_LED" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  LED*
  LED_SMD:*
  LED_THT:*
 $ENDFPLIST
 DRAW
-P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 10 -50 -50 -50 50 N
 P 2 0 1 0 -50 0 50 0 N
-P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
 P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
 P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
 X K 1 -150 0 100 R 50 50 1 1 P
@@ -344,7 +308,7 @@ DEF Device_L_Core_Iron L 0 40 N N 1 F N
 F0 "L" -50 0 50 V V C CNN
 F1 "Device_L_Core_Iron" 110 0 50 V V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  Choke_*
  *Coil*
@@ -369,7 +333,7 @@ DEF Device_Q_NMOS_GSD Q 0 0 Y N 1 F N
 F0 "Q" 200 50 50 H V L CNN
 F1 "Device_Q_NMOS_GSD" 200 -50 50 H V L CNN
 F2 "" 200 100 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 DRAW
 C 65 0 110 0 1 10 N
 C 100 -70 10 0 1 0 F
@@ -397,7 +361,7 @@ DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
 F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  R_*
 $ENDFPLIST
@@ -414,7 +378,7 @@ DEF Device_R_Small R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
 F1 "Device_R_Small" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  R_*
 $ENDFPLIST
@@ -431,7 +395,7 @@ DEF Interface_CAN_LIN_TJA1051TK-3 U 0 40 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
 F1 "Interface_CAN_LIN_TJA1051TK-3" 50 350 50 H V L CNN
 F2 "Package_DFN_QFN:DFN-8-1EP_3x3mm_P0.65mm_EP1.55x2.4mm" 0 -500 50 H I C CIN
-F3 "" 0 0 50 H I C CNN
+F3 "http://www.nxp.com/documents/data_sheet/TJA1051.pdf" 0 0 50 H I C CNN
 $FPLIST
  DFN*1EP*3x3mm*P0.65mm*
 $ENDFPLIST
@@ -455,7 +419,7 @@ DEF MCU_ST_STM32F4_STM32F405RGTx U 0 20 Y Y 1 F N
 F0 "U" -600 1750 50 H V L CNN
 F1 "MCU_ST_STM32F4_STM32F405RGTx" 400 1750 50 H V L CNN
 F2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" -600 -1700 50 H I R CNN
-F3 "" 0 0 50 H I C CNN
+F3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00037051.pdf" 0 0 50 H I C CNN
 $FPLIST
  LQFP*10x10mm*P0.5mm*
 $ENDFPLIST
@@ -534,7 +498,7 @@ DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
 F0 "H" 0 200 50 H V C CNN
 F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 $FPLIST
  MountingHole*
 $ENDFPLIST
@@ -549,8 +513,7 @@ DEF Regulator_Switching_MCP16311MS U 0 10 Y Y 1 F N
 F0 "U" -300 450 50 H V L CNN
 F1 "Regulator_Switching_MCP16311MS" 0 450 50 H V L CNN
 F2 "Package_SO:MSOP-8_3x3mm_P0.65mm" 150 -250 50 H I L CNN
-F3 "" -300 550 50 H I C CNN
-ALIAS MCP16312MS
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005255B.pdf" -300 550 50 H I C CNN
 $FPLIST
  MSOP*3x3mm*P0.65mm*
 $ENDFPLIST
@@ -573,7 +536,7 @@ DEF Sensor_Motion_BMI160 U 0 20 Y Y 1 F N
 F0 "U" -400 350 50 H V L CNN
 F1 "Sensor_Motion_BMI160" 300 350 50 H V R CNN
 F2 "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm" 0 0 50 H I C CNN
-F3 "" -700 850 50 H I C CNN
+F3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BMI160-DS000.pdf" -700 850 50 H I C CNN
 $FPLIST
  Bosch*LGA*3x2.5mm*P0.5mm*
 $ENDFPLIST
@@ -602,7 +565,7 @@ DEF Switch_SW_SPDT SW 0 0 Y N 1 F N
 F0 "SW" 0 170 50 H V C CNN
 F1 "Switch_SW_SPDT" 0 -200 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 DRAW
 C -80 0 20 0 0 0 N
 C 80 -100 20 0 0 0 N
@@ -688,7 +651,7 @@ DEF power_PWR_FLAG #FLG 0 0 N N 1 F P
 F0 "#FLG" 0 75 50 H I C CNN
 F1 "power_PWR_FLAG" 0 150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
+F3 "~" 0 0 50 H I C CNN
 DRAW
 P 6 0 1 0 0 0 0 50 -40 75 0 100 40 75 0 50 N
 X pwr 1 0 0 0 U 50 50 0 0 w
