@@ -1,0 +1,3 @@
+[submodule "firmware/lispBM"]
+	path = firmware/lispBM
+	url = git@github.com:svenssonjoel/lispBM
