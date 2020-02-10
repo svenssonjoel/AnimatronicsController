@@ -37,7 +37,7 @@
    Here all channels are used. 
 */ 
 static PWMConfig pwmcfg_tim5 = {
-  2000000,
+  1000000,
   20000,
   NULL,
   {
@@ -51,7 +51,7 @@ static PWMConfig pwmcfg_tim5 = {
 };
 
 static PWMConfig pwmcfg_tim3 = {
-  2000000,
+  1000000,
   20000,
   NULL,
   {

@@ -27,11 +27,9 @@
 #include "chprintf.h"
 
 #include "led.h"
-#include "motor_drv.h"
 #include "repl.h"
-
 #include "imu.h"
-#include "neato_lidar.h"
+
 
 
 int main(void) {
